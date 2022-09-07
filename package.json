@@ -1,5 +1,5 @@
 {
-  "name": "reactpackages",
+  "name": "@lamji/reactcomponentlib",
   "version": "0.0.1",
   "description": "React Component Libray",
   "scripts": {
@@ -24,5 +24,8 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/lamji"
+  }
 }
