@@ -10,8 +10,11 @@ const Button = (props: ButtonProps) => {
     const [status,setStatus] =  React.useState(false)
     return (
         <>
-        {props.dataOut={status}}
-        <button onClick={props.onClick}>{props.label}</button>
+        <button  onClick={() => {
+           return {
+            ok: status
+           }
+        }}>{props.label}</button>
         </>
     )
 }

@@ -1,6 +1,6 @@
 {
   "name": "@lamji/reactcomponentlib",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "React Component Libray",
   "scripts": {
     "rollup": "rollup -c"
