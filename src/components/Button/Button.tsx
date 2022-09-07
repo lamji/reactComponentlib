@@ -10,7 +10,6 @@ const Button = (props: ButtonProps) => {
     const [status,setStatus] =  React.useState(false)
     return (
         <>
-        {props.dataOut = {status}}
         <button  onClick={props.onClick}>{props.label}</button>
         </>
     )
